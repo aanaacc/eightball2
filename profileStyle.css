@@ -1,0 +1,149 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(118, 139, 118);
+    margin: 0;
+    padding: 0;
+}
+
+#bt {
+    margin: 8px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    border: 1px solid #949292;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#bt:hover {
+    box-shadow: 0px 0px 5px rgb(243, 243, 243);
+}
+
+#img2 {
+    height: 10%;
+    text-align: center;
+    margin: auto;
+}
+
+#img3 {
+    text-align: right;
+    margin: auto;
+    height: 200px;
+    display:flex;
+}
+
+#imgs {
+    height: 200%;
+    position: absolute;
+    z-index: 0;
+    display: flex;
+    top: 0;
+    left:0;
+    margin: 0;
+    text-align: center;
+}
+
+#prompt {
+    text-align: center;
+    margin: auto;
+    position: relative;
+    
+}
+
+.question {
+    text-align: center;
+    margin: auto;
+    padding: 2%;
+    font-size: 18px;
+    z-index: 2;
+    position: relative;
+}
+
+#search-bar {
+    height: 34px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #C2C2C2;
+    width: 70%;
+    max-width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    z-index: 2;
+}
+
+.black-circle {
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    z-index: 1;
+    position:relative;
+}
+
+.small-circle {
+    position:absolute;
+    height: 250px;
+    width: 250px;
+    background-color: rgb(31, 26, 26);
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    z-index: 2;
+    top: 23%;
+    left: 24%;
+}
+
+.blue-triangle {
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-left: 95px solid transparent;
+    border-right: 95px solid transparent;
+    border-top: 160px solid #21442c;
+    text-align: center;
+    margin: auto;
+    z-index: 2;
+    top: 37%;
+    left: 30%;
+}
+
+.tiny-triangle {
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-left: 85px solid transparent;
+    border-right: 85px solid transparent;
+    border-top: 150px solid #5ceb5c;
+    text-align: center;
+    margin: auto;
+    z-index: 2;
+    top: 38%;
+    left: 32%;
+}
+
+.answer{
+    text-align: center;
+    margin: auto;
+    position:absolute;
+    justify-content: center;
+    top: 40%;
+    left: 43%;
+    color: rgb(9, 75, 36);
+    z-index: 2;
+}
+
+.answerMsg {
+    text-align: center;
+}
+
+#eightball {
+    display: none;
+    margin: auto;
+}

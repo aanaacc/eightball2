@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ana Silva Carvalho</title>
+    <link rel = "stylesheet" type = "text/css" href = "profileStyle.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  </head>
+  <script src = "profileJS.js"></script>
+  <body>
+
+    <div class = "ivy-prompt">
+        <!-- this will disappear once button is clicked -->
+      <div id = "prompt">
+        <p> would you like to see your future? </p>
+        <input type = "button" id="bt" onclick="msg()" value="yes"/>
+        <a href = "index.html">
+          <input type = "button" id="bt" value="take me home"/>
+        </a>
+        <div id = "img2">
+          <img src = "images/dog.png">
+        </div>
+      </div>
+    </div>
+
+    <!-- this will happear once button is clicked -->
+    <div id="eightball">
+      <!-- ask a question + input prompt -->
+      <div class="question">
+        <div id = "imgs">
+          <img src="images/ivy.png" id = "ivy" alt = "vines" />
+        </div>
+        <p id="message">ask a question</p>
+        <input id="search-bar" placeholder="go on, don't be shy..."/>
+        <br>
+        <input type = "button" id="bt" onclick= "answer()" value="shake"/>
+        <a href = "index.html">
+        <input type = "button" id="bt" value="take me home"/>
+        </a>
+      </div>
+
+      <!-- eightball graphics -->
+      <div class="black-circle">
+        <div class="small-circle"></div>
+        <div class="blue-triangle"></div>
+        <div class="tiny-triangle"></div>
+        <div class = "answer">
+          <p id = "answerMsg"></p>
+        </div>
+      </div>
+      <div id = "img3">
+        <img src = "images/cat.png">
+      </div>
+    </div>
+
+    
+
+  </body>
+</html>
